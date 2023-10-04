@@ -1,0 +1,8 @@
+* {margin: 0; padding: 0; box-sizing: border-box; transition: all 250ms ease;}
+.container {padding: 5em; display: flex; gap: 3em; background-color: rgb(15, 122, 122);}
+.para {color: white; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; text-align: center;}
+
+
+@media (max-width: 768px) {
+    .container {flex-direction: column; background-color: rgb(40,40,40);}
+}
